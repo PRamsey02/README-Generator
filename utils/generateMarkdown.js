@@ -39,7 +39,7 @@ function generateReadme(data) {
 - [Installation](#installation)
 ${renderLicenseLink(data.license)}
 - [Contributors](#contributors)
-- [Test](#Test)
+- [Test](#test)
 - [Questions](#questions)
 
   ## Requirements
