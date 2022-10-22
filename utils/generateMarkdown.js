@@ -34,23 +34,23 @@ function generateReadme(data) {
   ## Description
   ${data.description}
 
-## Table of Content
+## Table of Contents
+- [Requirements](#requirements)
 - [Installation](#installation)
-- [Usage](#usage)
 ${renderLicenseLink(data.license)}
-- [Contributing](#contributing)
+- [Contributors](#contributors)
 - [Test](#Test)
 - [Questions](#questions)
 
+  ## Requirements
+  ${data.requirements}
+ 
 ## Installation
   ${data.installation}
-
-## Usage
-  ${data.usage}
 ${renderLicenseSection(data.license)}
 
-## Contributing
-  ${data.contributing}
+## Contributors
+  ${data.contributors}
 
 ## Test
   ${data.test}
