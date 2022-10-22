@@ -57,6 +57,12 @@ inquirer
       name: "email"
     }
   ])
+  .then((data) => {
+    // TODO: Create a function to write README file
+    const filename = data.title.replace(' ', "").toLowerCase()
+    fs.writeFile(`${filename}.md`, generateReadme(data), (err) =>
+        err ? console.error(err) : console.log("Thanks! Your Professional Readme is generated"))
+})
 
 // TODO: Create a function to initialize app
 function init() {}
