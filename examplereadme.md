@@ -5,14 +5,14 @@
   Demo of professional README generator
 
 ## Table of Contents
-- [Requirements](#requirements)
+- [Usage](#usage)
 - [Installation](#installation)
 - [License](#license)
-- [Contributors](#contributors)
+- [Contribute](#contribute)
 - [Test](#Test)
 - [Questions](#questions)
 
-  ## Requirements
+  ## Usage
   Example
  
 ## Installation
@@ -20,7 +20,7 @@
 ## License
     This application is covered by the MIT license.
 
-## Contributors
+## Contribute
   Example
 
 ## Test

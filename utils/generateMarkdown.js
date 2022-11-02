@@ -35,22 +35,22 @@ function generateReadme(data) {
   ${data.description}
 
 ## Table of Contents
-- [Requirements](#requirements)
+- [Usage](#usage)
 - [Installation](#installation)
 ${renderLicenseLink(data.license)}
-- [Contributors](#contributors)
+- [Contribute](#contribute)
 - [Test](#test)
 - [Questions](#questions)
 
-  ## Requirements
-  ${data.requirements}
+  ## Usage
+  ${data.usage}
  
 ## Installation
   ${data.installation}
 ${renderLicenseSection(data.license)}
 
-## Contributors
-  ${data.contributors}
+## Contribute
+  ${data.contribute}
 
 ## Test
   ${data.test}

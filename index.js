@@ -20,8 +20,8 @@ inquirer
     },
     {
       type: 'input',
-      message: 'Provide requirements and examples for use.',
-      name: 'requirements',
+      message: 'Provide example(s) of application usage.',
+      name: 'usage',
     },
     {
       type: 'input',
@@ -43,8 +43,8 @@ inquirer
     },
     {
       type: 'input',
-      message: 'Who are the contributors for this project?',
-      name: 'contributors'
+      message: 'How can people contribute to this project?',
+      name: 'contribute'
     },
     {
       type: 'input',
